@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/favicon.svg">
 
 <!-- ============================================================
      SEO / AEO HEAD  ::  SWAP THE PLACEHOLDERS WHEN DOMAIN IS SET
@@ -74,7 +76,9 @@
     backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s;}
   nav.scrolled{border-bottom-color:var(--line);}
   .nav-inner{display:flex;align-items:center;justify-content:space-between;height:72px;}
-  .logo{font-family:'Fraunces',serif;font-weight:600;font-size:23px;color:var(--teal);}
+  .logo{font-family:'Fraunces',serif;font-weight:600;font-size:23px;color:var(--teal);display:inline-flex;align-items:center;gap:9px;}
+  .logo-mark{width:26px;height:26px;flex:none;display:block;}
+  .foot-logo-mark{width:24px;height:24px;flex:none;display:block;}
   .logo .dot{color:var(--amber);}
   .nav-links{display:flex;align-items:center;gap:34px;}
   .nav-links a{font-size:14.5px;font-weight:500;color:var(--ink);opacity:.8;transition:opacity .2s;}
@@ -261,7 +265,7 @@
 
   footer{background:var(--teal-deep);color:rgba(247,244,238,.6);padding:52px 0 40px;}
   .foot-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;}
-  .foot-logo{font-family:'Fraunces',serif;font-weight:600;font-size:22px;color:var(--sand);}
+  .foot-logo{font-family:'Fraunces',serif;font-weight:600;font-size:22px;color:var(--sand);display:inline-flex;align-items:center;gap:9px;}
   .foot-logo .dot{color:var(--amber);}
   .foot-links{display:flex;gap:28px;font-size:14px;}
   .foot-links a{opacity:.7;transition:opacity .2s;}
@@ -280,7 +284,7 @@
 
 <nav id="nav">
   <div class="wrap nav-inner">
-    <a href="#top" class="logo">Watertable<span class="dot">.</span></a>
+    <a href="#top" class="logo"><svg class="logo-mark" viewBox="0 0 64 64" fill="none" aria-hidden="true"><line x1="10" y1="24" x2="54" y2="24" stroke="#E8A33D" stroke-width="3.5" stroke-linecap="round"/><path d="M12 36 Q23 29 32 36 T52 36" stroke="#0E3A44" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M14 47 Q24 41 32 47 T50 47" stroke="#2C7A82" stroke-width="3" fill="none" stroke-linecap="round"/></svg>Watertable<span class="dot">.</span></a>
     <div class="nav-links">
       <a href="#problem">Why it matters</a>
       <a href="#aeo">Get found by AI</a>
@@ -563,7 +567,7 @@
 <footer>
   <div class="wrap">
     <div class="foot-inner">
-      <a href="#top" class="foot-logo">Watertable<span class="dot">.</span></a>
+      <a href="#top" class="foot-logo"><svg class="foot-logo-mark" viewBox="0 0 64 64" fill="none" aria-hidden="true"><line x1="10" y1="24" x2="54" y2="24" stroke="#E8A33D" stroke-width="3.5" stroke-linecap="round"/><path d="M12 36 Q23 29 32 36 T52 36" stroke="#F6F5F0" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M14 47 Q24 41 32 47 T50 47" stroke="#4FA3A8" stroke-width="3" fill="none" stroke-linecap="round"/></svg>Watertable<span class="dot">.</span></a>
       <div class="foot-links">
         <a href="#problem">Why it matters</a>
         <a href="#aeo">Get found by AI</a>
